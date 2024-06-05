@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  background: url("/public/banner.jpeg") no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vw/1100*310);
+  font-family: "Courgette", cursive;
+}
